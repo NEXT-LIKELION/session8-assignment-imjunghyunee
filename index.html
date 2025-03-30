@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git Conflict 실습</title>
 </head>
+
 <body>
     <h1>환영합니다!</h1>
     <p>이 문장은 기본 텍스트입니다.</p>
     <p>아래 문장은 브랜치별로 변경될 부분입니다.</p>
-    <p>이 부분을 수정해주세요.</p>
+
+    <!--로그인 기능 추가-->
+    <h2>로그인</h2>
+    <form action="/login" method="post">
+        <label for="username">사용자 이름:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">비밀번호:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="로그인">
+
 </body>
+
 </html>
